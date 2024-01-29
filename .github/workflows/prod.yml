@@ -23,7 +23,7 @@ jobs:
             - name: Build docker image
               run: docker build -t geraldojr17/gestao_vagas .
             - name: Publish image
-              run: docker push geraldojr17/gestao_vaga
+              run: docker push geraldojr17/gestao_vagas
     deploy: 
         needs: build    
         runs-on: self-hosted 
